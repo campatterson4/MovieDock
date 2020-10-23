@@ -5,36 +5,38 @@ class MovieDock::CLI
         menu
         exit
     end
+    
     def list_movies
-        # here docs is DOC
-        puts "What type of film do you feel like watching?"
-        @movies = MovieDock::Movie.rotten
-        puts <<-DOC.gsub /^\s*/,''       
-        SciFi
-        Action
-        Drama
-        DOC
+        puts "Which film are you feeling?"
+    
+        @movies = MovieDock::Movie.always
+        @movies.each.with_index(1) do |movie, i|
+            puts "#{i}. #{movie.name}"
     end
+end
+
 
     def menu
         input = nil
         while input != "exit"
-        puts "Type in your desired genre for a list of fantastic movies!"
-        puts "Type list to view all genres again"
+        puts "Type in your desired movie for info about it!"
+        puts "Type list to view all movies again"
         puts "Type exit to finish."
         input = gets.strip
-        case input
-        when "list"
+      
+        if input.to_i > 0
+            the_movie = @movies[input.to_i-1]
+            puts "#{the_movie.about}"   
+        elsif input == "list"
             list_movies
-        when "exit"
-            puts "Thanks for using Movie Dock! Come back soon for more movies!"
-        else 
-            puts "ERROR. Try one of the commands below."
-        
+        elsif input == "exit"
+            puts "Thank you for using MovieDock. Come back soon for more fantastic movies!"
+        else
+            puts "ERROR. Try typing list or exit."
 end    
 end
 end
 
-def exit
+def exit  
 end
 end
