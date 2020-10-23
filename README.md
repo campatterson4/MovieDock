@@ -1,8 +1,6 @@
 # MovieDock
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/movie_dock`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Hello! If you are reading this, you have downloaded my new program. The program I created provides you with movie recommendations, along with critic thoughts/summaries about the movie, depending on which film you choose. Stay tuned for the updates and additons of even more movies. Thank you for downloading, and happy Movie Docking!
 
 ## Installation
 
@@ -22,7 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Open application in Terminal. Once in terminal, use cd movie_dock, and then type in ./bin/movie_dock
+After this, you will be given a menu with the initial genres I have implemented. Type in which one you would like to see a movie about, and once entered, a movie recommendation will pop up, along with it's summary. If you watch it and like it, great! If you do not like it, re-watch it. 
 
 ## Development
 
@@ -32,13 +31,14 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/<github username>/movie_dock. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/<github username>/movie_dock/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/<campatterson4>/movie_dock. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/<campatterson4>/movie_dock/blob/master/CODE_OF_CONDUCT.md).
 
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+https://opensource.org/licenses/MIT
 
 ## Code of Conduct
 
-Everyone interacting in the MovieDock project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/<github username>/movie_dock/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the MovieDock project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/<campatterson4>/movie_dock/blob/master/CODE_OF_CONDUCT.md).
+# MovieDock
