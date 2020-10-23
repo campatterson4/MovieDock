@@ -42,3 +42,4 @@ https://opensource.org/licenses/MIT
 
 Everyone interacting in the MovieDock project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/<campatterson4>/movie_dock/blob/master/CODE_OF_CONDUCT.md).
 # MovieDock
+# MovieDock
