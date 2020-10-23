@@ -47,3 +47,4 @@ Everyone interacting in the MovieDock project's codebases, issue trackers, chat 
 # MovieDock
 # MovieDock
 # MovieDock
+# MovieDock
